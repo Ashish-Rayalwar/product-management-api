@@ -2,6 +2,8 @@
 # Product Management API
 
 - This repository contains a Node.js application that provides a RESTful API for managing products. It utilizes a JSON file as the data store instead of a traditional database.
+  
+https://github.com/Ashish-Rayalwar/product-management-api/assets/119595991/e0d8068e-d2dc-4ea4-a31e-2e2c6d17ac2e
 
 ## Features -
 
