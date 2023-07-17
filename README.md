@@ -10,7 +10,7 @@
 - Get a list of active products (maximum 10 per page).
 - Update an existing product by productId, including the product image.
 - Delete a product by productId.
-
+https://github.com/Ashish-Rayalwar/product-management-api/issues/1#issue-1808096661
 ## Installation ==>
 
 - Clone the repository: git clone <repository-url>
@@ -19,10 +19,9 @@
 - Start the server: npm start
 - Access the API endpoints using a tool like Postman.
 - Use formdata in postman instead of raw JSON. ///////// IMP
-https://github.com/Ashish-Rayalwar/product-management-api/issues/1#issue-1808096661
 - Use postman collection and watch video for sample test.
 
-- 
+  
 
 ## API Endpoints
 
