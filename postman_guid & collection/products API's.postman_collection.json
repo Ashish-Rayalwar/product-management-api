@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "35b5fbd1-0fc6-4f25-a662-5ceba3ee25dd",
+		"name": "products API's",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24846036"
+	},
+	"item": [
+		{
+			"name": "CreateProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"productId\": 1 ,\r\n      \"productName\": \"Iphone 11 \" ,\r\n      \"productDescription\": \"Liquid Retina HD display · 6.1‑inch (diagonal) all-screen LCD Multi-Touch display with IPS technology · 1792‑by‑828‑pixel resolution at 326 ppi · 1400:1 contrast \",\r\n      \"isActive\": \"true\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/products",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/products/productid/10",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products",
+						"productid",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get active products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/products/active",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products",
+						"active"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateproducts",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "productName",
+							"value": " Iphone 6",
+							"type": "text"
+						},
+						{
+							"key": "productDescription",
+							"value": " Liquid Retina HD display · 6.1‑inch (diagonal) all-screen LCD Multi-Touch display with IPS technology · 1792‑by‑828‑pixel resolution at 326 ppi · 1400:1 contrast ",
+							"type": "text"
+						},
+						{
+							"key": "isActive",
+							"value": "true",
+							"type": "text"
+						},
+						{
+							"key": "productImage",
+							"type": "file",
+							"src": "/C:/Users/Administrator/Downloads/robert-pattinson-as-batman-bruce-wayne-in-the-batman-1645186686 (1).jpeg"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/api/products/productid/3",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products",
+						"productid",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "localhost:3000/api/products/productid/3",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products",
+						"productid",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

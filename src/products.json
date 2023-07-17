@@ -1,0 +1,23 @@
+[
+  {
+    "productId": 1,
+    "productName": " Iphone 10",
+    "productDescription": " Liquid Retina HD display · 6.1‑inch (diagonal) all-screen LCD Multi-Touch display with IPS technology · 1792‑by‑828‑pixel resolution at 326 ppi · 1400:1 contrast ",
+    "productImage": "productImage-1689606035240-59665604.jpg",
+    "isActive": "true"
+  },
+  {
+    "productId": 2,
+    "productName": " Iphone 11",
+    "productDescription": " Liquid Retina HD display · 6.1‑inch (diagonal) all-screen LCD Multi-Touch display with IPS technology · 1792‑by‑828‑pixel resolution at 326 ppi · 1400:1 contrast ",
+    "productImage": "productImage-1689606053089-350339492.jpg",
+    "isActive": "true"
+  },
+  {
+    "productId": 3,
+    "productName": " Iphone 5s",
+    "productDescription": " Liquid Retina HD display · 6.1‑inch (diagonal) all-screen LCD Multi-Touch display with IPS technology · 1792‑by‑828‑pixel resolution at 326 ppi · 1400:1 contrast ",
+    "productImage": "productImage-1689606078509-774752485.jpg",
+    "isActive": "true"
+  }
+]
