@@ -19,6 +19,7 @@
 - Start the server: npm start
 - Access the API endpoints using a tool like Postman.
 - Use formdata in postman instead of raw JSON. ///////// IMP
+https://github.com/Ashish-Rayalwar/product-management-api/issues/1#issue-1808096661
 - Use postman collection and watch video for sample test.
 
 - 
